@@ -42,3 +42,37 @@ let price = 19.99; //floating-point number (decimal number)
 
 console.log(typeof price +": " +price); // Output: 19.99
 
+let phoneNumber = 8882221111 // large integer number
+console.log(typeof phoneNumber +": " +phoneNumber); // Output: 8882221111
+
+/* Boolean Data Type: Used to store true or false values
+A boolean represents one of two values: true or false.
+Booleans are often used in conditional statements and logical operations.
+*/
+let employerIsIncubyte = true;
+console.log(typeof employerIsIncubyte +": " +employerIsIncubyte); // Output: true
+ 
+let workFromOffice = false;
+console.log(typeof workFromOffice +": " +workFromOffice); // Output: false
+
+/* Undefined Data Type: Represents a variable that has been declared but not assigned a value
+When a variable is declared but not initialized, it has the value undefined.
+This indicates that the variable exists but does not yet hold any meaningful data.
+*/
+
+let middleName;
+console.log(typeof middleName +": " +middleName); // Output: undefined
+
+let car;
+console.log(typeof car +": " +car); // Output: undefined
+
+/* Null Data Type: Represents the intentional absence of any object value
+Null is a special value that indicates that a variable has been explicitly set to have no value.
+It is often used to signify that a variable should not point to any object or data.
+*/
+
+let address = null;
+console.log(typeof address +": " +address); // Output: null     
+
+let previousEmployer = null;
+console.log(typeof previousEmployer +": " +previousEmployer); // Output: null
