@@ -17,4 +17,6 @@ console.log(typeof role + ": " + role);
 
 console.log(typeof company + ": " + company);
 
+console.log(typeof team + ": " + team);
+
 console.log("This is the end of my first code!");
