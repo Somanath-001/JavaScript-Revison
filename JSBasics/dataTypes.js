@@ -42,5 +42,3 @@ let price = 19.99; //floating-point number (decimal number)
 
 console.log(typeof price +": " +price); // Output: 19.99
 
-let phoneNumber = 8882221111 // large integer number
-console.log(typeof phoneNumber +": " +phoneNumber); // Output: 8882221111
