@@ -13,6 +13,5 @@ console.log(`My name is ${fullName} and I work as a ${role} at ${company}. I am 
 
 console.log(typeof fullName +": " + fullName);
 
-console.log(typeof role + ": " + role);
 
 console.log("This is the end of my first code!");
