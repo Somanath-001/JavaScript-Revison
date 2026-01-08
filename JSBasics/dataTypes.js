@@ -76,3 +76,20 @@ console.log(typeof address +": " +address); // Output: null
 
 let previousEmployer = null;
 console.log(typeof previousEmployer +": " +previousEmployer); // Output: null
+
+/* NON-PRIMITIVE Data Type: Objects
+Objects are complex data types that can store collections of data and more complex entities.
+An object is a collection of key-value pairs, where each key is a string (or symbol) and the value can be any data type, including other objects.
+Objects are used to represent real-world entities and their properties.
+*/
+
+let user ={
+    name: "Somanath Ammineni",
+    age: 28,
+    role: "Test Craft Person",
+    employer: "Incubyte Consulting LLP"
+}
+console.log(user)
+console.log(typeof user + ": "+ user); // Output: [object Object]
+
+console.log(typeof user + ": "+ JSON.stringify(user));
