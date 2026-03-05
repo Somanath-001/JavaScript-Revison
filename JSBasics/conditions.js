@@ -137,6 +137,12 @@ if (appMaintenance === true){
     console.log("load the application normally")
 }
 
+let appMaintenance1 = false;
+if (appMaintenance === true){
+    console.log("the application is under maintenance")
+}else{
+    console.log("load the application normally")
+}
 
 /* Scenario 8: Free Sessions Availability
 Context: User has remaining free sessions count
@@ -173,9 +179,9 @@ Conditions:
 If input is empty → Show validation error
 Else → Accept input*/
 
-let username = "test" 
-if (username === "") {
-    console.log (" validation error: username field cannot be empty") 
+let username = "" 
+if (username === "test") {
+    console.log ("validation error: username field cannot be empty") 
 } else{ 
     console.log ("username accepted: " + username) 
 }
