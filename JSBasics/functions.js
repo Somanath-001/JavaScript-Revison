@@ -165,7 +165,7 @@ If all fields not empty → return "Profile Complete"
 Else → return "Incomplete Profile" */
 
 function isProfileComplete (name, email, phone){
-    if (name !== "" && email !== "" && phone !== ""){
+    if (!name == "" && !email == "" && !phone == ""){
         return ("Profile completed")
     }else {
         return ("Incomplete profile")
